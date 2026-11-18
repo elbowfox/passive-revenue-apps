@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Page Summarizer AI",
+  "version": "1.0.0",
+  "description": "Summarize any webpage with AI in one click. Bring your own OpenAI key. Freemium ready.",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": ["https://api.openai.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
